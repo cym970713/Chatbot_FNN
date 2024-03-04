@@ -1,0 +1,7 @@
+openpyxl
+nltk
+pandas
+numpy
+keras==2.15.0
+tensorflow==2.15.0
+flask
