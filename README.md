@@ -13,25 +13,26 @@
 
 ## Project Description
 
-This project aim to create a chatbot model that can be easily trained from FAQ dataset. 
+This project aim to create a chatbot model that can be easily trained from FAQ dataset and answer to user accurately.
 
 ## File and Folder Structure
 
 1. **dataset:**
-dataset/FAQ.csv  #data input for FNN model training
+- dataset/FAQ.csv  #data input for FNN model training
 
 2. **model:**
-Trained FNN model will be stored in "model" folder after runnning chatbot_model.py.
-It will be utilized in app.py for predicting the user input. 
+- Trained FNN model will be stored in "model" folder after runnning chatbot_model.py.
+- It will be utilized in app.py for predicting the user input. 
 
 3. **static & template:**
-Contains html and CSS file for the chatbot interface 
+- Contains html and CSS file for the chatbot interface 
 
 4. **chatbot_model.py:**
-Script for performing text preprocessing and FNN model training.
-Case Lowering, Symbol removal, hyperlink removal, tokenization, stopword removal
+- Script for performing text preprocessing and FNN model training.
+- Case Lowering, Symbol removal, hyperlink removal, tokenization, stopword removal
+- You can retrain the data by running this after modifying the data directly from the dataset/FAQ.csv
 
 5. **app.py**
-import Flask for REST API
+- import Flask for REST API
 
 
